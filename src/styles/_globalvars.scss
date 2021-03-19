@@ -1,0 +1,29 @@
+@use "sass:color";
+
+//colors: grey
+$grey-bg: #0C0C0C;
+$grey-dark: #111;
+$grey-mid: #1F1F1F;
+$grey-border: color.adjust($grey-mid, $lightness: 30%);
+$grey-light: #888;
+
+//colors: muted
+$muted-red: rgb(109, 7, 7);
+$muted-green: rgb(0, 109, 0);
+
+//colors: mid
+$mid-red: rgb(155, 0, 0);
+$mid-green: rgb(0, 155, 0);
+
+//colors: vibrant
+$vibrant-red: rgb(255, 0, 41);
+$vibrant-green: rgb(0, 255, 0);
+
+$glass-dark: rgba($grey-dark, 0.7);
+$glass-mid: rgba($grey-mid, 0.95);
+
+//breakpoint
+$breakpoint-tablet: 1024px;
+
+//topbar
+$topbar-height: 100px;
